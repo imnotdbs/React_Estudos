@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWord from './components/HelloWord'
+import Evento from './components/Eventos';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-     <h1>Olá react</h1>
+      <HelloWord />
+      <Evento />
+      <Form />
     </div>
   );
 }
